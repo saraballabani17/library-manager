@@ -1,0 +1,72 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding: 0.85rem 1.5rem;
+  background: var(--color-primary-dark);
+  color: white;
+}
+
+.brand {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.01em;
+}
+
+.topbar nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.1rem;
+}
+
+.topbar nav a {
+  color: #dcece9;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.topbar nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.who {
+  color: #b9d6d1;
+  font-size: 0.9rem;
+}
+
+.badge {
+  background: var(--color-accent);
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.topbar button {
+  background: transparent;
+  color: #dcece9;
+  border: 1px solid #2f6f68;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  font-family: var(--font-body);
+}
+
+.topbar button:hover {
+  background: #124a45;
+  color: white;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}

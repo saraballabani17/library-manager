@@ -1,0 +1,21 @@
+# ---- Python / Django ----
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+backend/db.sqlite3
+*.log
+
+# ---- Node / Angular ----
+node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/tmp/
+npm-debug.log*
+
+# ---- Editors / OS ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
